@@ -1,0 +1,32 @@
+
+/* Custom Stylesheet  */
+
+body{
+    margin:0;
+    padding: 0;
+}
+.bg-honda{
+background-color:  #264653;
+
+}
+/* .sub-heading{
+    color:#FFFFFF, 100%, 
+} */
+.btn-purchase{
+    background-color: #E76F51;
+    color: white;
+    border: 1px solid #E76F51;
+    border-radius: 5px;
+    width: 168px;
+    height: 44px;
+    padding: 10px 12px;
+
+}
+.feature-text{
+  color:  #E76F51;
+}
+.feature-bike{
+filter: grayscale(100%);
+
+}
+
