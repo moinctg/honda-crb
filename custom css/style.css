@@ -61,6 +61,13 @@ filter: grayscale(100%);
 
 /* Clent Section style  */
 
+.client-heading{
+  font-family: 'Poppins', sans-serif;
+font-style: SemiBold;
+font-weight:600;
+color: #E76F51;
+
+}
 .client-text{
 font-family: 'Poppins', sans-serif;
 font-style: Regular;
@@ -96,4 +103,11 @@ padding: 12px 12px;
   font-family: 'Poppins', sans-serif;
   color: #252B42;
   font-weight:600;
+}
+
+
+/* footer Style Section  */
+
+.bg-footer{
+  background-color: #0B0D17;
 }
