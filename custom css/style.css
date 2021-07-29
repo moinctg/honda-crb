@@ -1,16 +1,20 @@
 
 /* Custom Stylesheet  */
 
+/* body Section Custom Style  */
+
 body{
     margin:0;
     padding: 0;
 }
-.bg-honda{
+/* Banner Section  Custom Style  */
+
+.bg-banner{
 background-color:  #264653;
 color: white;
 
 }
-
+ /* Navar Custom Style  */
 .outline{
     border-radius: 3px;
       background-color: #E76F51;
@@ -24,6 +28,8 @@ color: white;
 /* .sub-heading{
     color:#FFFFFF, 100%, 
 } */
+
+ /* Banner Custom  Button Style   */
 .btn-purchase{
     background-color: #E76F51;
     color: white;
@@ -34,12 +40,20 @@ color: white;
     padding: 10px 12px;
 
 }
+.btn-purchase:hover{
+  background-color:tomato;
+}
+
+/* Feature section Custom Style  */
 .feature-text{
   color:  #E76F51;
 }
 .feature-bike{
 filter: grayscale(100%);
 
+}
+.feature-text:hover{
+  text-decoration: underline;
 }
 .btn-outline{
     
