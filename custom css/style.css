@@ -7,8 +7,20 @@ body{
 }
 .bg-honda{
 background-color:  #264653;
+color: white;
 
 }
+
+.outline{
+    border-radius: 3px;
+      background-color: #E76F51;
+   
+    border:1px solid #212832;
+  }
+  .outline:hover{
+    background-color: blanchedalmond;
+  }
+
 /* .sub-heading{
     color:#FFFFFF, 100%, 
 } */
@@ -29,4 +41,59 @@ background-color:  #264653;
 filter: grayscale(100%);
 
 }
+.btn-outline{
+    
+    color: #E76F51;
+    border: 1px solid #E76F51;
+    border-radius: 5px;
+   
+    width: 168px;
+    height: 44px;
+    padding: 10px 12px;
 
+}
+.btn-outline:hover{
+    background-color: #E76F51;
+    color: white;
+}
+
+
+
+/* Clent Section style  */
+
+.client-text{
+font-family: 'Poppins', sans-serif;
+font-style: Regular;
+line-height: 26px;
+letter-spacing: 0.2px;
+color:#6C6C6C;
+padding: 12px 12px;
+}
+
+/* 5 Star Rating  */
+.fa-star{
+
+  font-size: 12px;
+}
+.fa-star.filled{
+
+  color:#E76F51;
+
+}
+.fa-star.empty{
+
+  
+  outline-color: #E76F51;
+  
+  
+}
+.clent-author{
+  color: #23A6F0;
+  font-family: 'Poppins', sans-serif;
+  font-style: SemiBold;
+}
+.client-designation{
+  font-family: 'Poppins', sans-serif;
+  color: #252B42;
+  font-weight:600;
+}
